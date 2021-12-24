@@ -55,11 +55,11 @@ You can customize the version of the database you test against by changing the a
 
 The `PYTHON_VERSION` environment variable customizes which version of Python you are running the tests against. e.g:
 
-`PYTHON_VERSION=3.7 docker-compose run --rm sqlite`
+`PYTHON_VERSION=3.8 docker-compose run --rm sqlite`
 
 You can also pull the pre-built image in the same way:
 
-`PYTHON_VERSION=3.7 docker-compose pull sqlite`
+`PYTHON_VERSION=3.8 docker-compose pull sqlite`
 
 ## Oracle
 
